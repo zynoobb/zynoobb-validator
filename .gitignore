@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+yarn.lock
 package-lock.json
 
 # Build output
@@ -12,9 +13,11 @@ build/
 *.swp
 *.swo
 .DS_Store
+Thumbs.db
 
 # Test coverage
 coverage/
+*.lcov
 
 # Logs
 *.log
@@ -32,3 +35,7 @@ yarn-error.log*
 
 # Memo
 memo.txt
+
+# Temporary files
+*.tmp
+*.temp
