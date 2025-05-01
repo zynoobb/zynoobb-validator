@@ -18,3 +18,4 @@ tsconfig.*.json
 *.lock
 node_modules
 dist 
+*.tgz

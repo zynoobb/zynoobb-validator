@@ -1,4 +1,8 @@
-// src/index.ts
-export * from "./decorators/is-korean.decorator";
-export * from "./decorators/is-english.decorator";
-// ... 추가 데코레이터 export
+import "reflect-metadata";
+import { IsKorean, IsKoreanConstraint } from "./validators/is-korean.validator";
+import {
+  IsEnglish,
+  IsEnglishConstraint,
+} from "./validators/is-english.validator";
+
+export { IsKorean, IsEnglish, IsKoreanConstraint, IsEnglishConstraint };
